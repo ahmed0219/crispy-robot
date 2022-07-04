@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./project2style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1 id="title"> freeCodeCamp Survey Form </h1> </header>
+    <div> <p id="description">Thank you for taking the time to help us improve the platform</p> </div>  
+    <br>
+    <form id="survey-form" >
+        
+<div id="label">
+
+    <label id="name-label">name:</label> &nbsp; &nbsp;
+    
+    
+    <input id="name" type="text" placeholder="enter your name" required></div>
+<br>
+<label id="email-label">email:</label> &nbsp;&nbsp;
+<input id="email" type="email" placeholder="enter your email" required >
+    <br> <br>
+<div> <label id="number-label" > number: </label>
+   
+    <input id="number" type="Number" placeholder="enter your age" min="18" max="90" > </div>
+    <h3>Would you recommend freeCodeCamp to a friend?</h3>
+    <div>
+     <label><input name="Likely" value="Definetly" type="radio" > Definitely </label ><br> 
+    <label><input name='Likely' value="Maybe" type="radio">Maybe </label>  <br>
+     <label><input name='Likely' value="Not sure" type="radio"> Not sure </label>
+    </div>
+      <h3>Which option best describes your current role?</h3>
+    
+     <select id='dropdown' >
+    <option    value="Student">  Student </option>
+    <option    value="Full Time Job">Full Time Job</option>
+    <option    value="Full Time Learner " >Full Time Learner</option>
+    <option    value="Prefer not to say">Prefer not to say</option>
+    <option   value="Other" >Other</option>
+</select>
+<h3>What would you like to see improved? (Check all that apply)</h3>
+<label for="Front-end Projects"><input value="Front-end Projects" type="checkbox" name="Field" > Front-end Projects </label> <br>
+<label for="Back-end Projects"><input value="Back-end Projects" type="checkbox" name="Field" > Back-end Projects </label> <br>
+<label for="Data Visualization"><input value="Data Visualization" type="checkbox" name="Field" > Data Visualization </label> <br>
+<label for="Challenges"><input value="Challenges" type="checkbox" name="Field" > Challenges </label> <br>
+<label for="Open Source Community"><input value="Open Source Community" type="checkbox" name="Field" > Open Source Community </label> <br>
+<label for="Wiki"><input type="checkbox" value="Wiki" name="Field" > Wiki </label> <br>
+<h3>Any Suggestion?</h3>
+<textarea  type placeholder="enter your comment here..." ></textarea> 
+<br>
+<button id="submit"> Submit</button>
+
+    </form>
+
+</body>
+
+</html>
